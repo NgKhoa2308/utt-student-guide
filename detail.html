@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết địa điểm - UTT Student Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body class="bg-gray-50">
+
+  <!-- HEADER -->
+  <header class="bg-blue-600 text-white p-4 shadow">
+    <div class="container mx-auto flex items-center justify-between">
+      <a href="index.html" class="text-2xl font-bold">UTT Student Guide</a>
+      <a href="index.html" class="text-sm hover:text-yellow-300">← Về trang chủ</a>
+    </div>
+  </header>
+
+  <!-- NỘI DUNG CHI TIẾT -->
+  <main class="container mx-auto p-6 max-w-4xl">
+    <div id="detailContent">
+      <!-- Sẽ render bằng JS -->
+      <p class="text-gray-500">Đang tải...</p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 text-white p-6 mt-10 text-center">
+    <p class="text-sm">© 2025 Nhóm UTT Student Guide</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/detail.js"></script>
+
+</body>
+</html>
