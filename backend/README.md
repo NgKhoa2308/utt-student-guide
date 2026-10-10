@@ -1,4 +1,4 @@
-Fork from [teamhide/fastapi-boilerplate](github.com/teamhide/fastapi-boilerplate)
+Fork from [teamhide/fastapi-boilerplate](https://github.com/teamhide/fastapi-boilerplate)
 # FastAPI Boilerplate
 
 # Features
